@@ -155,6 +155,10 @@ BingX supports [time_in_force](configuration.md#understand-order_time_in_force) 
 !!! Tip "Stoploss on Exchange"
     Bingx supports `stoploss_on_exchange` and can use both stop-limit and stop-market orders. It provides great advantages, so we recommend to benefit from it by enabling stoploss on exchange.
 
+## Deribit
+
+Deribit supports isolated futures trading. Configure the bot with `"trading_mode": "futures"` and `"margin_mode": "isolated"` to enable futures on this exchange.
+
 ## Kraken
 
 Kraken supports [time_in_force](configuration.md#understand-order_time_in_force) with settings "GTC" (good till cancelled), "IOC" (immediate-or-cancel) and "PO" (Post only) settings.
